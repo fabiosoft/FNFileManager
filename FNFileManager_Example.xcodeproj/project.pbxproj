@@ -1,0 +1,310 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E549A1B1141EA71800345168 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E549A1B0141EA71800345168 /* UIKit.framework */; };
+		E549A1B3141EA71800345168 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E549A1B2141EA71800345168 /* Foundation.framework */; };
+		E549A1B5141EA71800345168 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E549A1B4141EA71800345168 /* CoreGraphics.framework */; };
+		E549A1BB141EA71800345168 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E549A1B9141EA71800345168 /* InfoPlist.strings */; };
+		E549A1BD141EA71800345168 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E549A1BC141EA71800345168 /* main.m */; };
+		E549A1C1141EA71800345168 /* FNFileManager_ExampleAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E549A1C0141EA71800345168 /* FNFileManager_ExampleAppDelegate.m */; };
+		E549A1C4141EA71800345168 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = E549A1C2141EA71800345168 /* MainWindow.xib */; };
+		E549A1C7141EA71800345168 /* FNFileManager_ExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E549A1C6141EA71800345168 /* FNFileManager_ExampleViewController.m */; };
+		E549A1CA141EA71800345168 /* FNFileManager_ExampleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E549A1C8141EA71800345168 /* FNFileManager_ExampleViewController.xib */; };
+		E549A1D7141EA76000345168 /* libFNFileManager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E549A1D6141EA76000345168 /* libFNFileManager.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E549A1AC141EA71800345168 /* FNFileManager_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FNFileManager_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E549A1B0141EA71800345168 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E549A1B2141EA71800345168 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E549A1B4141EA71800345168 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E549A1B8141EA71800345168 /* FNFileManager_Example-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FNFileManager_Example-Info.plist"; sourceTree = "<group>"; };
+		E549A1BA141EA71800345168 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E549A1BC141EA71800345168 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E549A1BE141EA71800345168 /* FNFileManager_Example-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FNFileManager_Example-Prefix.pch"; sourceTree = "<group>"; };
+		E549A1BF141EA71800345168 /* FNFileManager_ExampleAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FNFileManager_ExampleAppDelegate.h; sourceTree = "<group>"; };
+		E549A1C0141EA71800345168 /* FNFileManager_ExampleAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FNFileManager_ExampleAppDelegate.m; sourceTree = "<group>"; };
+		E549A1C3141EA71800345168 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		E549A1C5141EA71800345168 /* FNFileManager_ExampleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FNFileManager_ExampleViewController.h; sourceTree = "<group>"; };
+		E549A1C6141EA71800345168 /* FNFileManager_ExampleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FNFileManager_ExampleViewController.m; sourceTree = "<group>"; };
+		E549A1C9141EA71800345168 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FNFileManager_ExampleViewController.xib; sourceTree = "<group>"; };
+		E549A1D5141EA76000345168 /* FNFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FNFileManager.h; sourceTree = "<group>"; };
+		E549A1D6141EA76000345168 /* libFNFileManager.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFNFileManager.a; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E549A1A9141EA71800345168 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E549A1B1141EA71800345168 /* UIKit.framework in Frameworks */,
+				E549A1B3141EA71800345168 /* Foundation.framework in Frameworks */,
+				E549A1B5141EA71800345168 /* CoreGraphics.framework in Frameworks */,
+				E549A1D7141EA76000345168 /* libFNFileManager.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E549A1A1141EA71800345168 = {
+			isa = PBXGroup;
+			children = (
+				E549A1D4141EA76000345168 /* FNFileManager */,
+				E549A1B6141EA71800345168 /* FNFileManager_Example */,
+				E549A1AF141EA71800345168 /* Frameworks */,
+				E549A1AD141EA71800345168 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E549A1AD141EA71800345168 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E549A1AC141EA71800345168 /* FNFileManager_Example.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E549A1AF141EA71800345168 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E549A1B0141EA71800345168 /* UIKit.framework */,
+				E549A1B2141EA71800345168 /* Foundation.framework */,
+				E549A1B4141EA71800345168 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E549A1B6141EA71800345168 /* FNFileManager_Example */ = {
+			isa = PBXGroup;
+			children = (
+				E549A1BF141EA71800345168 /* FNFileManager_ExampleAppDelegate.h */,
+				E549A1C0141EA71800345168 /* FNFileManager_ExampleAppDelegate.m */,
+				E549A1C2141EA71800345168 /* MainWindow.xib */,
+				E549A1C5141EA71800345168 /* FNFileManager_ExampleViewController.h */,
+				E549A1C6141EA71800345168 /* FNFileManager_ExampleViewController.m */,
+				E549A1C8141EA71800345168 /* FNFileManager_ExampleViewController.xib */,
+				E549A1B7141EA71800345168 /* Supporting Files */,
+			);
+			path = FNFileManager_Example;
+			sourceTree = "<group>";
+		};
+		E549A1B7141EA71800345168 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E549A1B8141EA71800345168 /* FNFileManager_Example-Info.plist */,
+				E549A1B9141EA71800345168 /* InfoPlist.strings */,
+				E549A1BC141EA71800345168 /* main.m */,
+				E549A1BE141EA71800345168 /* FNFileManager_Example-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E549A1D4141EA76000345168 /* FNFileManager */ = {
+			isa = PBXGroup;
+			children = (
+				E549A1D5141EA76000345168 /* FNFileManager.h */,
+				E549A1D6141EA76000345168 /* libFNFileManager.a */,
+			);
+			path = FNFileManager;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E549A1AB141EA71800345168 /* FNFileManager_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E549A1CD141EA71800345168 /* Build configuration list for PBXNativeTarget "FNFileManager_Example" */;
+			buildPhases = (
+				E549A1A8141EA71800345168 /* Sources */,
+				E549A1A9141EA71800345168 /* Frameworks */,
+				E549A1AA141EA71800345168 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FNFileManager_Example;
+			productName = FNFileManager_Example;
+			productReference = E549A1AC141EA71800345168 /* FNFileManager_Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E549A1A3141EA71800345168 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = E549A1A6141EA71800345168 /* Build configuration list for PBXProject "FNFileManager_Example" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E549A1A1141EA71800345168;
+			productRefGroup = E549A1AD141EA71800345168 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E549A1AB141EA71800345168 /* FNFileManager_Example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E549A1AA141EA71800345168 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E549A1BB141EA71800345168 /* InfoPlist.strings in Resources */,
+				E549A1C4141EA71800345168 /* MainWindow.xib in Resources */,
+				E549A1CA141EA71800345168 /* FNFileManager_ExampleViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E549A1A8141EA71800345168 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E549A1BD141EA71800345168 /* main.m in Sources */,
+				E549A1C1141EA71800345168 /* FNFileManager_ExampleAppDelegate.m in Sources */,
+				E549A1C7141EA71800345168 /* FNFileManager_ExampleViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E549A1B9141EA71800345168 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E549A1BA141EA71800345168 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E549A1C2141EA71800345168 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E549A1C3141EA71800345168 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		E549A1C8141EA71800345168 /* FNFileManager_ExampleViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E549A1C9141EA71800345168 /* en */,
+			);
+			name = FNFileManager_ExampleViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E549A1CB141EA71800345168 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E549A1CC141EA71800345168 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E549A1CE141EA71800345168 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FNFileManager_Example/FNFileManager_Example-Prefix.pch";
+				INFOPLIST_FILE = "FNFileManager_Example/FNFileManager_Example-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/FNFileManager\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E549A1CF141EA71800345168 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FNFileManager_Example/FNFileManager_Example-Prefix.pch";
+				INFOPLIST_FILE = "FNFileManager_Example/FNFileManager_Example-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/FNFileManager\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E549A1A6141EA71800345168 /* Build configuration list for PBXProject "FNFileManager_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E549A1CB141EA71800345168 /* Debug */,
+				E549A1CC141EA71800345168 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E549A1CD141EA71800345168 /* Build configuration list for PBXNativeTarget "FNFileManager_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E549A1CE141EA71800345168 /* Debug */,
+				E549A1CF141EA71800345168 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E549A1A3141EA71800345168 /* Project object */;
+}
