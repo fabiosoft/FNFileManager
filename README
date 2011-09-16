@@ -1,1 +1,36 @@
 Manage file on Apple devices with iOS (iPhone, iPad and iPod) can be very hard, but with FNFileManager you have full control on Documents directory.
+
+Let's make an overview on the three main functions of this static library:
+
+Save Document
+The "saveFile" method has two parameters, both required:
+FileName of type NSString indicates the name of the file, you MUST include the extension.
+StringToSave of type NSString indicates the string you want to save into the document.
+
+Ex:
+FNFileManager *fileManager=[[[FNFileManager alloc]init]autorelease];
+NSString *stringToSave=@"Hello FNFileManager!";
+NSString *fileStatus=[fileManager saveFile:@"example.txt" withString:stringToSave];
+
+saveFile return nil if there was an error and the file wasn't saved successfully.
+
+Read Document
+The "readFile" method has just one parameter, of course, required:
+FileName of type NSString indicates the name of the file you want to read, you MUST include the extension.
+Ex:
+FNFileManager *fileManager=[[[FNFileManager alloc]init]autorelease];
+NSString *textSaved=[fileManager readFile:@"example.txt"];
+
+readFile returns nil if file doesn't not exist or it's corrupted, otherwise it contains the text red.
+
+Delete Document
+The "deleteFile" method has just one parameter, of course, required:
+FileName of type NSString indicates the name of the file you want to delete, you MUST include the extension and the action cannot be undone.
+Ex:
+FNFileManager *fileManager=[[[FNFileManager alloc]init]autorelease];
+BOOL returnDel=[fileManager deleteFile:@"example.txt"];
+
+deleteFile returns YES if the file was deleted successfully, otherwise it returns NO.
+
+PS: try your project on a real Device and not on the simulator.
+by Fabio Nisci http://www.fabiosoft.com
